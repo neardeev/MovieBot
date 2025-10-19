@@ -27,17 +27,21 @@ MovieBot — это Telegram-бот, позволяющий пользовате
 
 ## 🧱 Стек технологий
 
-- Python 3.x  
+- Python 3.x
+- PyCharm(https://www.jetbrains.com/pycharm/)
 - [pyTelegramBotAPI (telebot)](https://github.com/eternnoir/pyTelegramBotAPI)  
 - [Stripe API](https://stripe.com/docs/api)  
-- pgAdmin
-- postgres
+- pgAdmin (https://www.jetbrains.com/pycharm/)
+- postgres 
 
 ---
 
 ## 📦 Установка
- Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/neardeev/moviebot.git
-   cd moviebot
+ 
+1.	Необходимо скачать PyCharm, pgAdmin
+2.	Скачать зип файла, распаковать его , добавить папку MovieBot в PyCharm
+3.	Cоздать базу данных в pgAdmin (посмотрите документацию)
+4.	В файл .env вставить все необходимое. (вам необходим токен телеграм-бота, stripe, данные от БД)
+5.	Запустить файл bot.py
+
 
